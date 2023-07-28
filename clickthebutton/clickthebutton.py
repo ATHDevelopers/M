@@ -58,9 +58,7 @@ class ClickTheButton(commands.Cog):
 
     async def create_leaderboard_embed(self, cooldown=0):
         embed = discord.Embed(
-            title="Click the button leaderboard!",
-            description="Press the button that has a random global cooldown! Everytime you press it, you get one "
-            "click (point).\n\n",
+            title="Leaderboard",
             colour=random.randint(0, 16777215),
         )
         sorted_leaderboard = self.get_sorted_leaderboard()
