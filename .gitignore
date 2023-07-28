@@ -1,0 +1,13 @@
+# Editors.
+.vscode
+.idea
+
+# Testing files.
+**/test*.*
+
+# Misc.
+venv
+
+*.pyc
+
+.history
