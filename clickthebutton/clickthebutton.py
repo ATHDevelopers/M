@@ -153,7 +153,7 @@ class ClickTheButton(commands.Cog):
             self.view.stop()
         self.view = PersistentView(self)
         msg = await ctx.send(
-            event("Click the button leaderboard was created!"),
+            event("leaderboard activate"),
             embed=await self.create_leaderboard_embed(),
             view=self.view,
         )
